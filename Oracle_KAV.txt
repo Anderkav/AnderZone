@@ -1,0 +1,37 @@
+1. GTES_Swiftpack
+
+CREATE TABLE GTES_Swiftpack
+(
+	Name	  VARCHAR2(100) NOT NULL primary key
+);
+
+2.Beton
+
+CREATE TABLE Сoncrete
+(
+	length		  INTEGER  NOT NULL ,
+	width		  INTEGER  NOT NULL ,
+	height		  INTEGER  NOT NULL 
+);
+
+3. Deployment_time
+
+CREATE TABLE Deployment_time
+(
+	deployment_time  INTEGER NOT NULL
+);
+
+4. Noise_level
+
+CREATE TABLE Noise_level
+(
+	1_meter_from_the_shelter	  INTEGER  NOT NULL ,
+	100_meter_from_the_shelter	  INTEGER  NOT NULL 
+);
+
+5. Emission_Level
+
+CREATE TABLE Emission_Level_T
+(
+	Emission_Level	  INTEGER  NULL
+);

@@ -1,0 +1,37 @@
+1. GTES_Swiftpack
+
+CREATE TABLE [dbo].[GTES_Swiftpack]
+(
+	[Name]	  NVARCHAR2(100) NOT NULL PRIMARY KEY IDENTITY
+)
+
+2.Beton
+
+CREATE TABLE [dbo].[Сoncrete]
+(
+	[length]		  SMALLINT  NOT NULL ,
+	[width]			  SMALLINT  NOT NULL ,
+	[height]		  SMALLINT  NOT NULL 
+)
+
+3. Deployment_time 
+
+CREATE TABLE [dbo].[Deployment_time]
+(
+	[deployment_time]  SMALLINT NOT NULL
+)
+
+4. Noise_level
+
+CREATE TABLE [dbo].[Noise_level]
+(
+	[1_meter_from_the_shelter]		INT  NOT NULL ,
+	[100_meter_from_the_shelter]	INT  NOT NULL 
+)
+
+5. Emission_Level
+
+CREATE TABLE [dbo].[Emission_Level_T]
+(
+	[Emission_Level]	  INT  NULL
+)
